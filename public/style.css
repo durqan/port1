@@ -1,0 +1,52 @@
+body
+{
+    background-color: #006699;
+    font-family: "Times New Roman";
+    color: white;
+}
+
+header
+{
+    width: 100%;
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #006699;
+    background-color: white;
+    margin: 0 auto;
+    border: 2px solid #006699;
+    width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.add_answer, .submit
+{
+    color: #006699;
+    width: 20%;
+    text-align: center;
+    border: 2px solid #006699;
+    border-radius: 10px;
+}
+
+.submit
+{
+    width: 200px;
+    height: auto;
+}
+.but
+{
+    display: flex;
+    justify-content: center;
+}
